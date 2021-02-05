@@ -5,7 +5,7 @@ import { Server, Site } from './ploi'
  * Docs: https://laravel.com/docs/8.x/eloquent-resources#data-wrapping-and-pagination
  */
 export interface Response {
-    data: Server[] | Site[],
+    data: any,
     links?: Links,
     meta?: Meta
 }

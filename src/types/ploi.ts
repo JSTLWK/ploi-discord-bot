@@ -31,7 +31,7 @@ export interface Site {
     status: String,
     server_id: Number,
     domain: String,
-    deploy_sript: Boolean,
+    deploy_script: Boolean,
     web_directory: String,
     project_type: String,
     project_root: String,
